@@ -1,1 +1,31 @@
-
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Campus Dashboard - Prototype</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header><h1>Smart Campus — Prototype Dashboard</h1></header>
+  <main>
+    <section class="row">
+      <div class="card" id="energy-card">
+        <h2>Energy (Buildings)</h2>
+        <div id="energy-list"></div>
+      </div>
+      <div class="card" id="occupancy-card">
+        <h2>Space Utilization (Rooms)</h2>
+        <div id="room-list"></div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="card" id="alerts-card">
+        <h2>Alerts & Maintenance</h2>
+        <ul id="alerts-list"></ul>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
